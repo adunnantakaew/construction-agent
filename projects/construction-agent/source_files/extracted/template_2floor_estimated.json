@@ -1,0 +1,692 @@
+[
+ {
+  "row": 157,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเตรียมเหล็กโครงสร้าง ค.ส.ล.",
+  "offset_day_est": -2
+ },
+ {
+  "row": 158,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานวางผังบริเวณ",
+  "offset_day_est": -2
+ },
+ {
+  "row": 159,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานขุดหลุมฐานราก",
+  "offset_day_est": -1
+ },
+ {
+  "row": 160,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานลงเสาเอก (..../..../....)",
+  "offset_day_est": 0
+ },
+ {
+  "row": 161,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานวางเหล็กฐานรากพร้อมเสาตอม่อ",
+  "offset_day_est": 1
+ },
+ {
+  "row": 162,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเข้าแบบฐานราก",
+  "offset_day_est": 2
+ },
+ {
+  "row": 163,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทคอนกรีตฐานราก",
+  "offset_day_est": 4
+ },
+ {
+  "row": 164,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานแกะแบบฐานราก",
+  "offset_day_est": 5
+ },
+ {
+  "row": 165,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเข้าแบบเสาตอม่อ",
+  "offset_day_est": 6
+ },
+ {
+  "row": 166,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทคอนกรีตเสาตอม่อ",
+  "offset_day_est": 7
+ },
+ {
+  "row": 167,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานแกะแบบเสาตอม่อ",
+  "offset_day_est": 8
+ },
+ {
+  "row": 168,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานถมฐานราก",
+  "offset_day_est": 10
+ },
+ {
+  "row": 169,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเดินเหล็กคาน ชั้น 1",
+  "offset_day_est": 11
+ },
+ {
+  "row": 170,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเข้าแบบคาน ชั้น 1",
+  "offset_day_est": 12
+ },
+ {
+  "row": 171,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทคอนกรีตคาน ชั้น 1",
+  "offset_day_est": 13
+ },
+ {
+  "row": 172,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานแกะแบบคาน ชั้น 1",
+  "offset_day_est": 14
+ },
+ {
+  "row": 173,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานวางท่อระบบกำจัดปลวก",
+  "offset_day_est": 15
+ },
+ {
+  "row": 174,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานฝาก Sleeve ประปา ใต้พื้นชั้น 1",
+  "offset_day_est": 17
+ },
+ {
+  "row": 175,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานทาบเหล็กเสา ชั้น 1",
+  "offset_day_est": 18
+ },
+ {
+  "row": 176,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเข้าแบบเสา ชั้น 1",
+  "offset_day_est": 19
+ },
+ {
+  "row": 177,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทแบบเสา ชั้น 1",
+  "offset_day_est": 20
+ },
+ {
+  "row": 178,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานวางแผ่นพื้น ชั้น 1",
+  "offset_day_est": 21
+ },
+ {
+  "row": 179,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานขุดดินเข้าพื้น S และ GS",
+  "offset_day_est": 23
+ },
+ {
+  "row": 180,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานสานเหล็กพื้น S ",
+  "offset_day_est": 24
+ },
+ {
+  "row": 181,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานปูพื้นไวเมช",
+  "offset_day_est": 25
+ },
+ {
+  "row": 182,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทคอนกรีตพื้น Topping ชั้น 1",
+  "offset_day_est": 26
+ },
+ {
+  "row": 183,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้งค้ำยันและเข้าแบบท้องคาน ชั้น 2",
+  "offset_day_est": 27
+ },
+ {
+  "row": 184,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเดินเหล็กคาน ชั้น2",
+  "offset_day_est": 29
+ },
+ {
+  "row": 185,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเข้าแบบคาน ชั้น2",
+  "offset_day_est": 30
+ },
+ {
+  "row": 186,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเข้าแบบท้องพื้น ชั้น 2",
+  "offset_day_est": 31
+ },
+ {
+  "row": 187,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานสานเหล็กพื้น S ชั้น 2",
+  "offset_day_est": 32
+ },
+ {
+  "row": 188,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานฝาก Sleeve ประปา ใต้พื้นชั้น 2",
+  "offset_day_est": 33
+ },
+ {
+  "row": 189,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทคอนกรีต คาน ชั้น 2 + พื้น S ",
+  "offset_day_est": 35
+ },
+ {
+  "row": 190,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานทาบเหล็กเสา ชั้น 2",
+  "offset_day_est": 36
+ },
+ {
+  "row": 191,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเข้าแบบเสา ชั้น 2",
+  "offset_day_est": 37
+ },
+ {
+  "row": 192,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทแบบเสา ชั้น 2",
+  "offset_day_est": 38
+ },
+ {
+  "row": 193,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานวางแผ่นพื้น ชั้น 2",
+  "offset_day_est": 39
+ },
+ {
+  "row": 194,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานปูพื้นไวเมช ชั้น 2",
+  "offset_day_est": 41
+ },
+ {
+  "row": 195,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเข้าแบบบันได",
+  "offset_day_est": 42
+ },
+ {
+  "row": 196,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเดินเหล็กบันได",
+  "offset_day_est": 43
+ },
+ {
+  "row": 197,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทคอนกรีตพื้น Topping ชั้น 2 และบันได",
+  "offset_day_est": 44
+ },
+ {
+  "row": 198,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "รื้อแบบท้องพื้น",
+  "offset_day_est": 45
+ },
+ {
+  "row": 199,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "รื้อค้ำยันคาน",
+  "offset_day_est": 46
+ },
+ {
+  "row": 201,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานตั้งอะเสและดั้งหลังคา",
+  "offset_day_est": 49
+ },
+ {
+  "row": 202,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานจันทันและแปหลังคา",
+  "offset_day_est": 50
+ },
+ {
+  "row": 203,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานโครงสร้างหลังคาโรงจอดรถ",
+  "offset_day_est": 51
+ },
+ {
+  "row": 204,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้งเชิงชาย",
+  "offset_day_est": 52
+ },
+ {
+  "row": 205,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานมุงหลังคาพร้อมเก็บสีหลังคา",
+  "offset_day_est": 54
+ },
+ {
+  "row": 207,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "QC - โครงสร้าง คสล. ชั้น 1 - 2 และ โครงหลังคาพร้อมมุง",
+  "offset_day_est": 56
+ },
+ {
+  "row": 209,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานก่อผนังและตั้งวงกบ",
+  "offset_day_est": 61
+ },
+ {
+  "row": 210,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานกรีดผนังฝากท่อระบบไฟฟ้า",
+  "offset_day_est": 64
+ },
+ {
+  "row": 211,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานจับเซี้ยมภายในและนอก",
+  "offset_day_est": 66
+ },
+ {
+  "row": 212,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานฉาบผนังภายนอก",
+  "offset_day_est": 69
+ },
+ {
+  "row": 213,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้งบัวผนัง",
+  "offset_day_est": 72
+ },
+ {
+  "row": 214,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้งกันนก",
+  "offset_day_est": 74
+ },
+ {
+  "row": 215,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานฝ้าเพดานภายนอก",
+  "offset_day_est": 77
+ },
+ {
+  "row": 216,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานฉาบผนังห้องน้ำ",
+  "offset_day_est": 80
+ },
+ {
+  "row": 217,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานฉาบผนังภายใน",
+  "offset_day_est": 82
+ },
+ {
+  "row": 218,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานสับท่อประปา",
+  "offset_day_est": 85
+ },
+ {
+  "row": 219,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานจอยท่อร้อยสายไฟ",
+  "offset_day_est": 88
+ },
+ {
+  "row": 220,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานสีรอบที่ 1",
+  "offset_day_est": 90
+ },
+ {
+  "row": 221,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานรื้อนั่งร้าน",
+  "offset_day_est": 93
+ },
+ {
+  "row": 223,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "QC - ก่อฉาบ",
+  "offset_day_est": 98
+ },
+ {
+  "row": 225,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานฝ้าเพดานภายใน",
+  "offset_day_est": 99
+ },
+ {
+  "row": 226,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานวัดอลูมิเนียม",
+  "offset_day_est": 100
+ },
+ {
+  "row": 227,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้งอลูมิเนียมรอบที่ 1",
+  "offset_day_est": 100
+ },
+ {
+  "row": 229,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานวางผังรั้วสำเร็จ",
+  "offset_day_est": 102
+ },
+ {
+  "row": 230,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานขุดฐารั้วสำเร็จ ",
+  "offset_day_est": 102
+ },
+ {
+  "row": 231,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานปักเสาพร้อมเทฐานราก",
+  "offset_day_est": 103
+ },
+ {
+  "row": 232,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเสียบแผ่นรั้วสำเร็จ",
+  "offset_day_est": 104
+ },
+ {
+  "row": 233,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเก็บรอยต่อรั้วสำเร็จ",
+  "offset_day_est": 104
+ },
+ {
+  "row": 235,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานขุดถังบำบัด",
+  "offset_day_est": 105
+ },
+ {
+  "row": 236,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานขุดท่อใยหิน",
+  "offset_day_est": 106
+ },
+ {
+  "row": 237,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานวางผัง รั้วคสล.",
+  "offset_day_est": 107
+ },
+ {
+  "row": 238,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเตรียมเหล็ก รั้วคสล.",
+  "offset_day_est": 107
+ },
+ {
+  "row": 239,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานมัดเหล็ก รั้วคสล.",
+  "offset_day_est": 108
+ },
+ {
+  "row": 240,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเข้าแบบคานและเสา รั้วคสล.",
+  "offset_day_est": 109
+ },
+ {
+  "row": 241,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทคานและเสา รั้วคสล.",
+  "offset_day_est": 109
+ },
+ {
+  "row": 242,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานปรับดินสำหรับเทลานและฟุตบาท",
+  "offset_day_est": 110
+ },
+ {
+  "row": 243,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเข้าแบบสำหรับเทลานและฟุตบาท",
+  "offset_day_est": 110
+ },
+ {
+  "row": 244,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานวางรางประตูรั้ว",
+  "offset_day_est": 111
+ },
+ {
+  "row": 245,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทลานและฟุตบาท",
+  "offset_day_est": 112
+ },
+ {
+  "row": 246,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้งประตูรั้วและมอเตอร์",
+  "offset_day_est": 112
+ },
+ {
+  "row": 248,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานปูกระเบื้องผนัง",
+  "offset_day_est": 114
+ },
+ {
+  "row": 249,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานปููกระเบื้องพื้นห้องน้ำ",
+  "offset_day_est": 114
+ },
+ {
+  "row": 250,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานมุงหลังคาโรงจอดรถ",
+  "offset_day_est": 115
+ },
+ {
+  "row": 251,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานกรุเสาโรงจอดรถ",
+  "offset_day_est": 115
+ },
+ {
+  "row": 252,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานปรับระดับพื้นสำหรับกระเบื้อง SPC",
+  "offset_day_est": 116
+ },
+ {
+  "row": 253,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานบันไดบ้าน",
+  "offset_day_est": 117
+ },
+ {
+  "row": 254,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเทและก่อฉาบเคาเตอร์ และ ม้านั่ง",
+  "offset_day_est": 117
+ },
+ {
+  "row": 255,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานปูกระเบื้องพื้นใหญ่",
+  "offset_day_est": 118
+ },
+ {
+  "row": 256,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้งอุปกรณ์ไฟฟ้า และดึงเมน พร้อมทดสอบระบบ",
+  "offset_day_est": 119
+ },
+ {
+  "row": 257,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้งสุขภัณฑ์ พร้อมทดสอบระบบ",
+  "offset_day_est": 119
+ },
+ {
+  "row": 258,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้ง + ทดสอบระบบปั๊มน้ำ",
+  "offset_day_est": 120
+ },
+ {
+  "row": 259,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้ง SPC",
+  "offset_day_est": 120
+ },
+ {
+  "row": 260,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้งบานประตู",
+  "offset_day_est": 121
+ },
+ {
+  "row": 261,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานติดตั้งอลูมิเนียมรอบที่ 2",
+  "offset_day_est": 122
+ },
+ {
+  "row": 262,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานปรับดินรอบบ้าน",
+  "offset_day_est": 122
+ },
+ {
+  "row": 263,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานเคลียร์ขยะรอบบ้าน",
+  "offset_day_est": 123
+ },
+ {
+  "row": 264,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานสีไม้",
+  "offset_day_est": 124
+ },
+ {
+  "row": 265,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานสีรอบที่ 2",
+  "offset_day_est": 124
+ },
+ {
+  "row": 266,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "งานทำความสะอาด - Big Cleaning",
+  "offset_day_est": 125
+ },
+ {
+  "row": 268,
+  "section": "งานก่อสร้าง (Construction)",
+  "task": "QC - บ้านจบทั้งหลัง",
+  "offset_day_est": 126
+ },
+ {
+  "row": 270,
+  "section": "งานส่งมอบ",
+  "task": "บริษัทตรวจบ้าน (..../..../....)",
+  "offset_day_est": 131
+ },
+ {
+  "row": 271,
+  "section": "งานส่งมอบ",
+  "task": "ตามรายงาน รอบที่ 1",
+  "offset_day_est": 134
+ },
+ {
+  "row": 272,
+  "section": "งานส่งมอบ",
+  "task": "เก็บงานรอบที่ 1",
+  "offset_day_est": 136
+ },
+ {
+  "row": 273,
+  "section": "งานส่งมอบ",
+  "task": "ตรวจรอบที่ 2 (..../..../....) / ตามรายงาน รอบที่ 2",
+  "offset_day_est": 139
+ },
+ {
+  "row": 274,
+  "section": "งานส่งมอบ",
+  "task": "เก็บงานรอบที่ 2",
+  "offset_day_est": 142
+ },
+ {
+  "row": 275,
+  "section": "งานส่งมอบ",
+  "task": "ตรวจรอบที่ 3 (..../..../....) / ตามรายงาน รอบที่ 3",
+  "offset_day_est": 144
+ },
+ {
+  "row": 276,
+  "section": "งานส่งมอบ",
+  "task": "เก็บงานรอบที่ 3 / ส่งมอบบ้าน",
+  "offset_day_est": 147
+ },
+ {
+  "row": 278,
+  "section": "งานส่งมอบ",
+  "task": "PR - งานสวนและปลูกหญ้า",
+  "offset_day_est": 147
+ },
+ {
+  "row": 279,
+  "section": "งานส่งมอบ",
+  "task": "CF - งานสวนและปลูกหญ้า",
+  "offset_day_est": 147
+ },
+ {
+  "row": 280,
+  "section": "งานส่งมอบ",
+  "task": "CF - งานทำความสะอาด (หลังส่งมอบ)",
+  "offset_day_est": 147
+ },
+ {
+  "row": 281,
+  "section": "งานส่งมอบ",
+  "task": "งานทำความสะอาด (หลังส่งมอบ)",
+  "offset_day_est": 147
+ },
+ {
+  "row": 282,
+  "section": "งานส่งมอบ",
+  "task": "งานสวนและปลูกหญ้า",
+  "offset_day_est": 147
+ }
+]

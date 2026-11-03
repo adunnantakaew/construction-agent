@@ -1,0 +1,121 @@
+{
+ "today": "2026-10-31",
+ "projects": [
+  {
+   "project_id": "MRC-2026-025",
+   "project_code": "MRC-2026-025 บ้านกาด แม่วาง",
+   "customer": "ฟ้า",
+   "stage": "จอง",
+   "house_type": "1_floor",
+   "book_date": "2026-09-03",
+   "total_tasks": 91,
+   "done_tasks": 0,
+   "status_counts": {
+    "planned": 91
+   },
+   "overdue": [
+    {
+     "name": "เตรียมเหล็กโครงสร้าง ค.ส.ล.",
+     "due": "2026-09-30",
+     "status": "planned"
+    },
+    {
+     "name": "งานวางผังบริเวณ",
+     "due": "2026-10-01",
+     "status": "planned"
+    },
+    {
+     "name": "งานขุดฐานราก",
+     "due": "2026-10-02",
+     "status": "planned"
+    },
+    {
+     "name": "งานลงเสาเอก (..../..../....)",
+     "due": "2026-10-03",
+     "status": "planned"
+    },
+    {
+     "name": "งานวางเหล็กฐานรากและเสาตอม่อ",
+     "due": "2026-10-04",
+     "status": "planned"
+    },
+    {
+     "name": "งานเข้าแบบฐานราก",
+     "due": "2026-10-05",
+     "status": "planned"
+    },
+    {
+     "name": "งานเทคอนกรีตฐานราก",
+     "due": "2026-10-06",
+     "status": "planned"
+    },
+    {
+     "name": "งานแกะแบบฐานราก",
+     "due": "2026-10-07",
+     "status": "planned"
+    }
+   ],
+   "overdue_count": 30,
+   "upcoming": [
+    {
+     "name": "QC - โครงสร้าง คสล. และ โครงหลังคาพร้อมมุง",
+     "due": "2026-10-31",
+     "status": "planned"
+    }
+   ],
+   "next_qc": {
+    "name": "QC - โครงสร้าง คสล. และ โครงหลังคาพร้อมมุง",
+    "due": "2026-10-31"
+   },
+   "pending_review": 1,
+   "date_start": "2026-09-30",
+   "date_end": "2027-01-30"
+  },
+  {
+   "project_id": "MRC-2026-026",
+   "project_code": "MRC-2026-026 เหมืองง่า ศรีสองเมือง",
+   "customer": "เชน",
+   "stage": "operation",
+   "house_type": "1_floor",
+   "book_date": "2026-09-14",
+   "total_tasks": 91,
+   "done_tasks": 0,
+   "status_counts": {
+    "planned": 91
+   },
+   "overdue": [],
+   "overdue_count": 0,
+   "upcoming": [],
+   "next_qc": {
+    "name": "QC - โครงสร้าง คสล. และ โครงหลังคาพร้อมมุง",
+    "due": "2026-12-24"
+   },
+   "pending_review": 0,
+   "date_start": "2026-11-23",
+   "date_end": "2027-03-25"
+  },
+  {
+   "project_id": "MRC-2026-027",
+   "project_code": "MRC-2026-027 สันผีเสื้อ 2",
+   "customer": "อีฟ",
+   "stage": "จอง",
+   "house_type": "1_floor",
+   "book_date": "2026-10-07",
+   "total_tasks": 91,
+   "done_tasks": 0,
+   "status_counts": {
+    "planned": 91
+   },
+   "overdue": [],
+   "overdue_count": 0,
+   "upcoming": [],
+   "next_qc": {
+    "name": "QC - โครงสร้าง คสล. และ โครงหลังคาพร้อมมุง",
+    "due": "2026-12-04"
+   },
+   "pending_review": 0,
+   "date_start": "2026-11-03",
+   "date_end": "2027-03-05"
+  }
+ ]
+}

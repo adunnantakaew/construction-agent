@@ -1,0 +1,1508 @@
+[
+ {
+  "row": 7,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "1. งานโครงสร้าง",
+  "week_range": null
+ },
+ {
+  "row": 8,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "2. โครงสร้างหลังคาพร้อมติดตั้งหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 9,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "3. งานก่อและฉาบ",
+  "week_range": null
+ },
+ {
+  "row": 10,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "4. งานผนังและตกแต่ง",
+  "week_range": null
+ },
+ {
+  "row": 11,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "5. งานพื้น ตกแต่ง และเคาเตอร์",
+  "week_range": null
+ },
+ {
+  "row": 12,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "6. งานฝ้าเพดาน - ตกแต่งฝ้าเพดาน",
+  "week_range": null
+ },
+ {
+  "row": 13,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "7. งานฝ้าเพดาน - ตกแต่งฝ้าเพดาน",
+  "week_range": null
+ },
+ {
+  "row": 14,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "8. งานประตูสำเร็จ งานไม้",
+  "week_range": null
+ },
+ {
+  "row": 15,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "9. งานสี - การย้อมสีไม้",
+  "week_range": null
+ },
+ {
+  "row": 16,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "10. งานระบบไฟฟ้า",
+  "week_range": null
+ },
+ {
+  "row": 17,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "11. งานระบบประปา ปั๊มและแทงค์น้ำ",
+  "week_range": null
+ },
+ {
+  "row": 18,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "12. งานสุขภัณฑ์",
+  "week_range": null
+ },
+ {
+  "row": 19,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "13. งานรั้ว โรงจอดรถ และ บริเวณรอบบ้าน",
+  "week_range": null
+ },
+ {
+  "row": 20,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "14. งานท่อระบายน้ำและระบบบำบัดน้ำเสีย",
+  "week_range": null
+ },
+ {
+  "row": 21,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "15. เครื่องจักรและเครื่องมือ",
+  "week_range": null
+ },
+ {
+  "row": 22,
+  "section": "1. แบบก่อสร้างจริง",
+  "task": "16. อื่นๆ",
+  "week_range": null
+ },
+ {
+  "row": 24,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "1. งานโครงสร้าง",
+  "week_range": null
+ },
+ {
+  "row": 25,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "2. โครงสร้างหลังคาพร้อมติดตั้งหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 26,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "3. งานก่อและฉาบ",
+  "week_range": null
+ },
+ {
+  "row": 27,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "4. งานผนังและตกแต่ง",
+  "week_range": null
+ },
+ {
+  "row": 28,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "5. งานพื้น ตกแต่ง และเคาเตอร์",
+  "week_range": null
+ },
+ {
+  "row": 29,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "6. งานฝ้าเพดาน - ตกแต่งฝ้าเพดาน",
+  "week_range": null
+ },
+ {
+  "row": 30,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "7. งานฝ้าเพดาน - ตกแต่งฝ้าเพดาน",
+  "week_range": null
+ },
+ {
+  "row": 31,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "8. งานประตูสำเร็จ งานไม้",
+  "week_range": null
+ },
+ {
+  "row": 32,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "9. งานสี - การย้อมสีไม้",
+  "week_range": null
+ },
+ {
+  "row": 33,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "10. งานระบบไฟฟ้า",
+  "week_range": null
+ },
+ {
+  "row": 34,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "11. งานระบบประปา ปั๊มและแทงค์น้ำ",
+  "week_range": null
+ },
+ {
+  "row": 35,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "12. งานสุขภัณฑ์",
+  "week_range": null
+ },
+ {
+  "row": 36,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "13. งานรั้ว โรงจอดรถ และ บริเวณรอบบ้าน",
+  "week_range": null
+ },
+ {
+  "row": 37,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "14. งานท่อระบายน้ำและระบบบำบัดน้ำเสีย",
+  "week_range": null
+ },
+ {
+  "row": 38,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "15. เครื่องจักรและเครื่องมือ",
+  "week_range": null
+ },
+ {
+  "row": 39,
+  "section": "2. ปริมาณและ Spec วัสดุ",
+  "task": "16. อื่นๆ",
+  "week_range": null
+ },
+ {
+  "row": 41,
+  "section": "3. Workload ช่าง",
+  "task": "1. งานโครงสร้าง",
+  "week_range": null
+ },
+ {
+  "row": 42,
+  "section": "3. Workload ช่าง",
+  "task": "2. โครงสร้างหลังคาพร้อมติดตั้งหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 43,
+  "section": "3. Workload ช่าง",
+  "task": "3. งานก่อและฉาบ",
+  "week_range": null
+ },
+ {
+  "row": 44,
+  "section": "3. Workload ช่าง",
+  "task": "4. งานผนังและตกแต่ง",
+  "week_range": null
+ },
+ {
+  "row": 45,
+  "section": "3. Workload ช่าง",
+  "task": "5. งานพื้น ตกแต่ง และเคาเตอร์",
+  "week_range": null
+ },
+ {
+  "row": 46,
+  "section": "3. Workload ช่าง",
+  "task": "6. งานฝ้าเพดาน - ตกแต่งฝ้าเพดาน",
+  "week_range": null
+ },
+ {
+  "row": 47,
+  "section": "3. Workload ช่าง",
+  "task": "7. งานฝ้าเพดาน - ตกแต่งฝ้าเพดาน",
+  "week_range": null
+ },
+ {
+  "row": 48,
+  "section": "3. Workload ช่าง",
+  "task": "8. งานประตูสำเร็จ งานไม้",
+  "week_range": null
+ },
+ {
+  "row": 49,
+  "section": "3. Workload ช่าง",
+  "task": "9. งานสี - การย้อมสีไม้",
+  "week_range": null
+ },
+ {
+  "row": 50,
+  "section": "3. Workload ช่าง",
+  "task": "10. งานระบบไฟฟ้า",
+  "week_range": null
+ },
+ {
+  "row": 51,
+  "section": "3. Workload ช่าง",
+  "task": "11. งานระบบประปา ปั๊มและแทงค์น้ำ",
+  "week_range": null
+ },
+ {
+  "row": 52,
+  "section": "3. Workload ช่าง",
+  "task": "12. งานสุขภัณฑ์",
+  "week_range": null
+ },
+ {
+  "row": 53,
+  "section": "3. Workload ช่าง",
+  "task": "13. งานรั้ว โรงจอดรถ และ บริเวณรอบบ้าน",
+  "week_range": null
+ },
+ {
+  "row": 54,
+  "section": "3. Workload ช่าง",
+  "task": "14. งานท่อระบายน้ำและระบบบำบัดน้ำเสีย",
+  "week_range": null
+ },
+ {
+  "row": 55,
+  "section": "3. Workload ช่าง",
+  "task": "15. เครื่องจักรและเครื่องมือ",
+  "week_range": null
+ },
+ {
+  "row": 56,
+  "section": "3. Workload ช่าง",
+  "task": "16. อื่นๆ",
+  "week_range": null
+ },
+ {
+  "row": 59,
+  "section": "งานเตรียมการ",
+  "task": "PR งานตั้งเสาไฟชั่วคราว",
+  "week_range": null
+ },
+ {
+  "row": 60,
+  "section": "งานเตรียมการ",
+  "task": "PR งานจัดแนวป้องกัน",
+  "week_range": null
+ },
+ {
+  "row": 61,
+  "section": "งานเตรียมการ",
+  "task": "CF ตำแหน่งตั้งเสาไฟชั่วคราว",
+  "week_range": null
+ },
+ {
+  "row": 62,
+  "section": "งานเตรียมการ",
+  "task": "งานไฟฟ้าชั่วคราว",
+  "week_range": null
+ },
+ {
+  "row": 63,
+  "section": "งานเตรียมการ",
+  "task": "งานประปาชั่วคราว",
+  "week_range": null
+ },
+ {
+  "row": 64,
+  "section": "งานเตรียมการ",
+  "task": "งานจัดแนวป้องกัน",
+  "week_range": null
+ },
+ {
+  "row": 65,
+  "section": "งานเตรียมการ",
+  "task": "งานเคลียร์ลิ่ง",
+  "week_range": null
+ },
+ {
+  "row": 68,
+  "section": "งานสั่งของ (PR)",
+  "task": "PR แบ็คโฮล งานเคลียร์ลิ่ง",
+  "week_range": null
+ },
+ {
+  "row": 69,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR แบ็คโฮล - ขุดฐานราก",
+  "week_range": null
+ },
+ {
+  "row": 70,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR วัสดุก่อสร้างวางผัง ",
+  "week_range": null
+ },
+ {
+  "row": 71,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR เหล็กโครงสร้าง คสล. (ฐานรากและเสาตอม่อ)",
+  "week_range": null
+ },
+ {
+  "row": 72,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR ไม้แบบ - ฐานราก",
+  "week_range": null
+ },
+ {
+  "row": 73,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR ไม้แบบ - ตอม่อ",
+  "week_range": null
+ },
+ {
+  "row": 74,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR คอนกรีต - ฐานราก",
+  "week_range": null
+ },
+ {
+  "row": 75,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR เครน - เทฐานราก",
+  "week_range": null
+ },
+ {
+  "row": 76,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR คอนกรีต - ตอม่อ",
+  "week_range": null
+ },
+ {
+  "row": 77,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR แบ็คโฮล - ถมฐานราก",
+  "week_range": null
+ },
+ {
+  "row": 78,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR เหล็กโครงสร้าง คสล. (คานและเสา)",
+  "week_range": null
+ },
+ {
+  "row": 79,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR เหล็กโครงสร้าง คสล. (พื้น)",
+  "week_range": null
+ },
+ {
+  "row": 80,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR ไม้แบบ - คานคอดิน",
+  "week_range": null
+ },
+ {
+  "row": 81,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR ไม้แบบ - เสา ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 82,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR คอนกรีต - คานคอดิน",
+  "week_range": null
+ },
+ {
+  "row": 83,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานวางท่อระบบกำจัดปลวก",
+  "week_range": null
+ },
+ {
+  "row": 84,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR คอนกรีต - เสาชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 85,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR เครน - เทเสา ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 86,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR แผ่นพื้นสำเร็จ ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 87,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR คอนกรีต - Topping ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 88,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR เครน - เทพื้น Topping ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 89,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานเหล็กรูปพรรณ  - งานหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 90,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานแผ่นหลังคา ไม้เชิงชาย อุปกรณ์มุงหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 91,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานก่อผนัง - ปูนก่อ ตะปู เหล็กทับหลัง",
+  "week_range": null
+ },
+ {
+  "row": 92,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานวงกบไม้ - สั่งผลิต",
+  "week_range": null
+ },
+ {
+  "row": 93,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานฉาบ - ปูนฉาบ,ตะแกรงกรงไก่",
+  "week_range": null
+ },
+ {
+  "row": 94,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR - แผ่นกันนก ",
+  "week_range": null
+ },
+ {
+  "row": 95,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานสี - สีรองพื้นปูนใหม่ สีจริงภายนอกและใน ",
+  "week_range": null
+ },
+ {
+  "row": 96,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานปูกระเบื้อง",
+  "week_range": null
+ },
+ {
+  "row": 97,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR บานประตู สั่งผลิต",
+  "week_range": null
+ },
+ {
+  "row": 98,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานบ่อพัก - บ่อพัก , ท่อใยหิน",
+  "week_range": null
+ },
+ {
+  "row": 99,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานบริเวณ - ไวเมช ",
+  "week_range": null
+ },
+ {
+  "row": 100,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR เหล็กรั้วคสล. - เหล็ก,ลวดมัดเหล็ก,ไม้แบบคาน+เสา",
+  "week_range": null
+ },
+ {
+  "row": 101,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR คอนกรีต - เทคานรั้ว",
+  "week_range": null
+ },
+ {
+  "row": 102,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR สุขภัณฑ์ - สั่งผลิต และ โรงงาน",
+  "week_range": null
+ },
+ {
+  "row": 103,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR เหล็กโรงจอดรถ - เหล็กรูปพรรณ สีกันสนิม",
+  "week_range": null
+ },
+ {
+  "row": 104,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR ช่างณุประตูรั้ว",
+  "week_range": null
+ },
+ {
+  "row": 105,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR ประตู UPVC",
+  "week_range": null
+ },
+ {
+  "row": 106,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR อุปกรณ์ ไฟฟ้า",
+  "week_range": null
+ },
+ {
+  "row": 107,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานสีรอบ 2",
+  "week_range": null
+ },
+ {
+  "row": 108,
+  "section": "(ก่อนงานก่อสร้าง 2-3 สัปดาห์)",
+  "task": "PR งานพื้น SPC",
+  "week_range": null
+ },
+ {
+  "row": 111,
+  "section": "งานคอนเฟิร์มช่าง (CF)",
+  "task": "CF ช่างโครงสร้าง",
+  "week_range": null
+ },
+ {
+  "row": 112,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างประปา - ฝาก Sleeve คาน ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 113,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF แผ่นพื้นเพื่อมาตรวจเช็คระยะคาน ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 114,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างโครงหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 115,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างติดตั้งเชิงชาย",
+  "week_range": null
+ },
+ {
+  "row": 116,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างมุงหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 117,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างก่อผนังบ้าน",
+  "week_range": null
+ },
+ {
+  "row": 118,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างไฟฟ้า - กรีดผนังฝังท่อไฟ",
+  "week_range": null
+ },
+ {
+  "row": 119,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างบัวหน้าต่างและผนัง",
+  "week_range": null
+ },
+ {
+  "row": 120,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างฝ้าเพดาน",
+  "week_range": null
+ },
+ {
+  "row": 121,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างสี - งานสีรอบที่ 1",
+  "week_range": null
+ },
+ {
+  "row": 122,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างประปา - กรีดฝั่งท่อน้ำดี ทิ้งในผนัง",
+  "week_range": null
+ },
+ {
+  "row": 123,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างกระเบื้อง ",
+  "week_range": null
+ },
+ {
+  "row": 124,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างไฟฟ้า - ร้อยท่อจอยสายไฟ",
+  "week_range": null
+ },
+ {
+  "row": 125,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างงานบริเวณ - ขุดถังบำบัด เทลาน และรั้วคสล.",
+  "week_range": null
+ },
+ {
+  "row": 126,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างอลูมิเนียมติดตั้งรอบที่ 1",
+  "week_range": null
+ },
+ {
+  "row": 127,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างกระเบื้อง SPC - คำนวณพื้นที่เสนอราคา",
+  "week_range": null
+ },
+ {
+  "row": 128,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างประตู",
+  "week_range": null
+ },
+ {
+  "row": 129,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างติดตั้งพื้น SPC",
+  "week_range": null
+ },
+ {
+  "row": 130,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างไฟฟ้า - ติดตั้งอุปกรณ์ พร้อมดึงเมน",
+  "week_range": null
+ },
+ {
+  "row": 131,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างประปา - ติดตั้งสุขภัณฑ์",
+  "week_range": null
+ },
+ {
+  "row": 132,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างสี - งานสีรอบที่ 2",
+  "week_range": null
+ },
+ {
+  "row": 133,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างสี - ย้อมสีประตู",
+  "week_range": null
+ },
+ {
+  "row": 134,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ช่างอลูมิเนียม- ติดตั้งอลูมิเนียมรอบที่ 2",
+  "week_range": null
+ },
+ {
+  "row": 135,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF แม่บ้าน - Big Cleaning ",
+  "week_range": null
+ },
+ {
+  "row": 136,
+  "section": "(ก่อนงานก่อสร้าง 1-2 สัปดาห์)",
+  "task": "CF ลูกค้าเรื่องการตรวจบ้าน",
+  "week_range": null
+ },
+ {
+  "row": 139,
+  "section": "งานก่อสร้าง",
+  "task": "เตรียมเหล็กโครงสร้าง ค.ส.ล.",
+  "week_range": null
+ },
+ {
+  "row": 140,
+  "section": "(Construction process)",
+  "task": "งานวางผังบริเวณ",
+  "week_range": null
+ },
+ {
+  "row": 141,
+  "section": "(Construction process)",
+  "task": "งานขุดฐานราก",
+  "week_range": null
+ },
+ {
+  "row": 142,
+  "section": "(Construction process)",
+  "task": "งานลงเสาเอก (..../..../....)",
+  "week_range": [
+   5,
+   5
+  ]
+ },
+ {
+  "row": 143,
+  "section": "(Construction process)",
+  "task": "งานวางเหล็กฐานรากและเสาตอม่อ",
+  "week_range": null
+ },
+ {
+  "row": 144,
+  "section": "(Construction process)",
+  "task": "งานเข้าแบบฐานราก",
+  "week_range": null
+ },
+ {
+  "row": 145,
+  "section": "(Construction process)",
+  "task": "งานเทคอนกรีตฐานราก",
+  "week_range": null
+ },
+ {
+  "row": 146,
+  "section": "(Construction process)",
+  "task": "งานแกะแบบฐานราก",
+  "week_range": null
+ },
+ {
+  "row": 147,
+  "section": "(Construction process)",
+  "task": "งานเข้าแบบเสาตอม่อ",
+  "week_range": null
+ },
+ {
+  "row": 148,
+  "section": "(Construction process)",
+  "task": "งานเทคอนกรีตเสาตอม่อ",
+  "week_range": null
+ },
+ {
+  "row": 149,
+  "section": "(Construction process)",
+  "task": "งานแกะแบบเสาตอม่อ",
+  "week_range": null
+ },
+ {
+  "row": 150,
+  "section": "(Construction process)",
+  "task": "งานถมฐานราก",
+  "week_range": null
+ },
+ {
+  "row": 151,
+  "section": "(Construction process)",
+  "task": "งานเดินเหล็กคาน",
+  "week_range": null
+ },
+ {
+  "row": 152,
+  "section": "(Construction process)",
+  "task": "งานเข้าแบบคาน",
+  "week_range": null
+ },
+ {
+  "row": 153,
+  "section": "(Construction process)",
+  "task": "งานเทคอนกรีตคาน",
+  "week_range": null
+ },
+ {
+  "row": 154,
+  "section": "(Construction process)",
+  "task": "งานแกะแบบคานและทาน้ำยาบ่ม",
+  "week_range": null
+ },
+ {
+  "row": 155,
+  "section": "(Construction process)",
+  "task": "งานวางระบบปลวก",
+  "week_range": null
+ },
+ {
+  "row": 156,
+  "section": "(Construction process)",
+  "task": "งานฝาก Sleeve ประปา ใต้พื้นชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 157,
+  "section": "(Construction process)",
+  "task": "งานทาบเหล็กเสา",
+  "week_range": null
+ },
+ {
+  "row": 158,
+  "section": "(Construction process)",
+  "task": "งานเข้าแบบเสา ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 159,
+  "section": "(Construction process)",
+  "task": "งานเทแบบเสา ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 160,
+  "section": "(Construction process)",
+  "task": "งานวางแผ่นพื้น ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 161,
+  "section": "(Construction process)",
+  "task": "งานขุดดินเข้าพื้น S และ GS",
+  "week_range": null
+ },
+ {
+  "row": 162,
+  "section": "(Construction process)",
+  "task": "งานสานเหล็กพื้น S ",
+  "week_range": null
+ },
+ {
+  "row": 163,
+  "section": "(Construction process)",
+  "task": "งานปูพื้นไวเมช",
+  "week_range": null
+ },
+ {
+  "row": 164,
+  "section": "(Construction process)",
+  "task": "งานเทคอนกรีตพื้น Topping ชั้น 1",
+  "week_range": null
+ },
+ {
+  "row": 166,
+  "section": "(Construction process)",
+  "task": "งานตั้งอะเสและดั้งหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 167,
+  "section": "(Construction process)",
+  "task": "งานจันทันและแปหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 168,
+  "section": "(Construction process)",
+  "task": "งานติดตั้งเชิงชาย",
+  "week_range": null
+ },
+ {
+  "row": 169,
+  "section": "(Construction process)",
+  "task": "งานมุงหลังคาพร้อมเก็บสีหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 171,
+  "section": "(Construction process)",
+  "task": "QC - โครงสร้าง คสล. และ โครงหลังคาพร้อมมุง",
+  "week_range": [
+   9,
+   9
+  ]
+ },
+ {
+  "row": 173,
+  "section": "(Construction process)",
+  "task": "งานก่อผนังและตั้งวงกบ",
+  "week_range": null
+ },
+ {
+  "row": 174,
+  "section": "(Construction process)",
+  "task": "งานกรีดผนังฝากท่อระบบไฟฟ้า",
+  "week_range": null
+ },
+ {
+  "row": 175,
+  "section": "(Construction process)",
+  "task": "งานจับเซี้ยมภายนอกและภายใน",
+  "week_range": null
+ },
+ {
+  "row": 177,
+  "section": "(Construction process)",
+  "task": "งานฉาบผนังภายนอก",
+  "week_range": null
+ },
+ {
+  "row": 178,
+  "section": "(Construction process)",
+  "task": "งานติดตั้งบัวผนัง",
+  "week_range": null
+ },
+ {
+  "row": 179,
+  "section": "(Construction process)",
+  "task": "งานติดตั้งกันนก",
+  "week_range": null
+ },
+ {
+  "row": 180,
+  "section": "(Construction process)",
+  "task": "งานฝ้าเพดานภายนอก",
+  "week_range": null
+ },
+ {
+  "row": 181,
+  "section": "(Construction process)",
+  "task": "งานฉาบผนังห้องน้ำ",
+  "week_range": null
+ },
+ {
+  "row": 182,
+  "section": "(Construction process)",
+  "task": "งานฉาบผนังภายใน",
+  "week_range": null
+ },
+ {
+  "row": 183,
+  "section": "(Construction process)",
+  "task": "งานสับท่อประปา",
+  "week_range": null
+ },
+ {
+  "row": 184,
+  "section": "(Construction process)",
+  "task": "งานจอยท่อร้อยสาย",
+  "week_range": null
+ },
+ {
+  "row": 185,
+  "section": "(Construction process)",
+  "task": "งานปูกระเบื้องผนังภายนอก",
+  "week_range": null
+ },
+ {
+  "row": 186,
+  "section": "(Construction process)",
+  "task": "งานปูกระเบื้องผนังห้องน้ำ",
+  "week_range": null
+ },
+ {
+  "row": 187,
+  "section": "(Construction process)",
+  "task": "งานวัดอลูมิเนียมรอบที่ 1",
+  "week_range": null
+ },
+ {
+  "row": 188,
+  "section": "(Construction process)",
+  "task": "งานสีรอบที่ 1",
+  "week_range": null
+ },
+ {
+  "row": 189,
+  "section": "(Construction process)",
+  "task": "งานรื้อนั่งร้าน",
+  "week_range": null
+ },
+ {
+  "row": 191,
+  "section": "(Construction process)",
+  "task": "งานฝ้าเพดานภายใน",
+  "week_range": null
+ },
+ {
+  "row": 192,
+  "section": "(Construction process)",
+  "task": "งานติดตั้งอลูมิเนียมรอบที่ 1",
+  "week_range": null
+ },
+ {
+  "row": 193,
+  "section": "(Construction process)",
+  "task": "งานปูกระเบื้องพื้นห้องน้ำ",
+  "week_range": null
+ },
+ {
+  "row": 194,
+  "section": "(Construction process)",
+  "task": "งานปรับระดับพื้นสำหรับกระเบื้อง SPC",
+  "week_range": null
+ },
+ {
+  "row": 195,
+  "section": "(Construction process)",
+  "task": "งานบันไดบ้าน",
+  "week_range": null
+ },
+ {
+  "row": 196,
+  "section": "(Construction process)",
+  "task": "งานปรับดินเตรียมเทลาน",
+  "week_range": null
+ },
+ {
+  "row": 197,
+  "section": "(Construction process)",
+  "task": "งานเทลาน และฟุตบาท",
+  "week_range": null
+ },
+ {
+  "row": 198,
+  "section": "(Construction process)",
+  "task": "งานมุงหลังคาโรงจอดรถ",
+  "week_range": null
+ },
+ {
+  "row": 199,
+  "section": "(Construction process)",
+  "task": "งานปรับดินรอบบ้าน",
+  "week_range": null
+ },
+ {
+  "row": 200,
+  "section": "(Construction process)",
+  "task": "งานกรุเสาโรงจอดรถ",
+  "week_range": null
+ },
+ {
+  "row": 201,
+  "section": "(Construction process)",
+  "task": "งานติดตั้งรางรินน้ำฝน",
+  "week_range": null
+ },
+ {
+  "row": 202,
+  "section": "(Construction process)",
+  "task": "งานปูกระเบื้องพื้นใหญ่",
+  "week_range": null
+ },
+ {
+  "row": 204,
+  "section": "(Construction process)",
+  "task": "งานขุดถังบำบัด",
+  "week_range": null
+ },
+ {
+  "row": 205,
+  "section": "(Construction process)",
+  "task": "งานขุดท่อใยหิน",
+  "week_range": null
+ },
+ {
+  "row": 206,
+  "section": "(Construction process)",
+  "task": "งานวางผัง (รั้วคสล.)",
+  "week_range": null
+ },
+ {
+  "row": 207,
+  "section": "(Construction process)",
+  "task": "งานเตรียมเหล็ก (รั้วคสล.)",
+  "week_range": null
+ },
+ {
+  "row": 208,
+  "section": "(Construction process)",
+  "task": "งานมัดเหล็ก (รั้วคสล.)",
+  "week_range": null
+ },
+ {
+  "row": 209,
+  "section": "(Construction process)",
+  "task": "งานเข้าแบบคาน และ เสา (รั้วคสล.)",
+  "week_range": null
+ },
+ {
+  "row": 210,
+  "section": "(Construction process)",
+  "task": "งานเทคานและเสา (รั้วคสล.)",
+  "week_range": null
+ },
+ {
+  "row": 212,
+  "section": "(Construction process)",
+  "task": "QC - งานฉาบ งานสีฝ้าเพดาน  งานบริเวณ",
+  "week_range": [
+   18,
+   18
+  ]
+ },
+ {
+  "row": 214,
+  "section": "(Construction process)",
+  "task": "งานติดตั้งอุปกรณ์ไฟฟ้าและดึงเมน พร้อมทดสอบระบบ",
+  "week_range": null
+ },
+ {
+  "row": 215,
+  "section": "(Construction process)",
+  "task": "งานติดตั้งสุขภัณฑ์ พร้อมทดสอบระบบ",
+  "week_range": null
+ },
+ {
+  "row": 216,
+  "section": "(Construction process)",
+  "task": "งานติดตั้งบานประตู",
+  "week_range": null
+ },
+ {
+  "row": 217,
+  "section": "(Construction process)",
+  "task": "งานติดตั้งพื้น SPC",
+  "week_range": null
+ },
+ {
+  "row": 218,
+  "section": "(Construction process)",
+  "task": "งานติดตั้งอลูมิเนียม รอบที่ 2",
+  "week_range": null
+ },
+ {
+  "row": 219,
+  "section": "(Construction process)",
+  "task": "งานสีไม้",
+  "week_range": null
+ },
+ {
+  "row": 220,
+  "section": "(Construction process)",
+  "task": "งานสีรอบที่ 2",
+  "week_range": null
+ },
+ {
+  "row": 221,
+  "section": "(Construction process)",
+  "task": "งานทรายล้าง",
+  "week_range": null
+ },
+ {
+  "row": 222,
+  "section": "(Construction process)",
+  "task": "งานประตูรั้ว ",
+  "week_range": null
+ },
+ {
+  "row": 223,
+  "section": "(Construction process)",
+  "task": "งานเคลียร์ขยะรอบบ้าน",
+  "week_range": null
+ },
+ {
+  "row": 224,
+  "section": "(Construction process)",
+  "task": "งานปรับดินรอบบ้าน",
+  "week_range": null
+ },
+ {
+  "row": 225,
+  "section": "(Construction process)",
+  "task": "งานทำความสะอาด - Big Cleaning",
+  "week_range": null
+ },
+ {
+  "row": 227,
+  "section": "(Construction process)",
+  "task": "QC - บ้านจบทั้งหลัง",
+  "week_range": [
+   19,
+   19
+  ]
+ },
+ {
+  "row": 229,
+  "section": "งานส่งมอบ",
+  "task": "บริษัทตรวจบ้าน",
+  "week_range": [
+   20,
+   20
+  ]
+ },
+ {
+  "row": 230,
+  "section": "งานส่งมอบ",
+  "task": "ตามรายงาน รอบที่ 1",
+  "week_range": [
+   20,
+   20
+  ]
+ },
+ {
+  "row": 231,
+  "section": "งานส่งมอบ",
+  "task": "เก็บงานรอบที่ 1",
+  "week_range": [
+   21,
+   21
+  ]
+ },
+ {
+  "row": 232,
+  "section": "งานส่งมอบ",
+  "task": "ตรวจรอบที่ 2 / ตามรายงาน รอบที่ 2",
+  "week_range": [
+   21,
+   21
+  ]
+ },
+ {
+  "row": 233,
+  "section": "งานส่งมอบ",
+  "task": "เก็บงานรอบที่ 2",
+  "week_range": [
+   22,
+   22
+  ]
+ },
+ {
+  "row": 234,
+  "section": "งานส่งมอบ",
+  "task": "ตรวจรอบที่ 3 / ตามรายงาน รอบที่ 3 / เก็บงานรอบที่ 3",
+  "week_range": [
+   22,
+   22
+  ]
+ },
+ {
+  "row": 236,
+  "section": "งานส่งมอบ",
+  "task": "PR งานสวน",
+  "week_range": null
+ },
+ {
+  "row": 237,
+  "section": "งานส่งมอบ",
+  "task": "CF ช่างบริเวณ(งานสวน)",
+  "week_range": null
+ },
+ {
+  "row": 238,
+  "section": "งานส่งมอบ",
+  "task": "CF งานทำความสะอาดรอบหลังส่งมอบ",
+  "week_range": null
+ },
+ {
+  "row": 239,
+  "section": "งานส่งมอบ",
+  "task": "งานทำความสะอาด - หลังส่งมอบ",
+  "week_range": null
+ },
+ {
+  "row": 240,
+  "section": "งานส่งมอบ",
+  "task": "งานปลูกหญ้า - ส่งมอบงานเรียบร้อย",
+  "week_range": null
+ },
+ {
+  "row": 243,
+  "section": "งานขอราคาค่าแรง",
+  "task": "งานไฟฟ้า",
+  "week_range": null
+ },
+ {
+  "row": 244,
+  "section": "งานขอราคาค่าแรง",
+  "task": "งานประปา",
+  "week_range": null
+ },
+ {
+  "row": 245,
+  "section": "งานขอราคาค่าแรง",
+  "task": "งานสี",
+  "week_range": null
+ },
+ {
+  "row": 246,
+  "section": "งานขอราคาค่าแรง",
+  "task": "งานอลูมิเนียม",
+  "week_range": null
+ },
+ {
+  "row": 250,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "1. งานโครงสร้าง",
+  "week_range": null
+ },
+ {
+  "row": 251,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "2. โครงสร้างหลังคาพร้อมติดตั้งหลังคา",
+  "week_range": null
+ },
+ {
+  "row": 252,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "3. งานก่อและฉาบ",
+  "week_range": null
+ },
+ {
+  "row": 253,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "4. งานผนังและตกแต่ง",
+  "week_range": null
+ },
+ {
+  "row": 254,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "5. งานพื้น ตกแต่ง และเคาเตอร์",
+  "week_range": null
+ },
+ {
+  "row": 255,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "6. งานฝ้าเพดาน - ตกแต่งฝ้าเพดาน",
+  "week_range": null
+ },
+ {
+  "row": 256,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "7. งานฝ้าเพดาน - ตกแต่งฝ้าเพดาน",
+  "week_range": null
+ },
+ {
+  "row": 257,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "8. งานประตูสำเร็จ งานไม้",
+  "week_range": null
+ },
+ {
+  "row": 258,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "9. งานสี - การย้อมสีไม้",
+  "week_range": null
+ },
+ {
+  "row": 259,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "10. งานระบบไฟฟ้า",
+  "week_range": null
+ },
+ {
+  "row": 260,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "11. งานระบบประปา ปั๊มและแทงค์น้ำ",
+  "week_range": null
+ },
+ {
+  "row": 261,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "12. งานสุขภัณฑ์",
+  "week_range": null
+ },
+ {
+  "row": 262,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "13. งานรั้ว โรงจอดรถ และ บริเวณรอบบ้าน",
+  "week_range": null
+ },
+ {
+  "row": 263,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "14. งานท่อระบายน้ำและระบบบำบัดน้ำเสีย",
+  "week_range": null
+ },
+ {
+  "row": 264,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "15. เครื่องจักรและเครื่องมือ",
+  "week_range": null
+ },
+ {
+  "row": 265,
+  "section": "สำรวจหน้างาน (Onsite) - เก็บข้อมูล",
+  "task": "16. อื่นๆ",
+  "week_range": null
+ },
+ {
+  "row": 268,
+  "section": "ขับเคลื่อนทีมงาน (Drive)",
+  "task": "งานก่อสร้างบ้านตามแผน 90% เทียบ Calendar",
+  "week_range": null
+ },
+ {
+  "row": 269,
+  "section": "ขับเคลื่อนทีมงาน (Drive)",
+  "task": "งานสต๊อควัสดุก่อสร้าง - 100%",
+  "week_range": null
+ },
+ {
+  "row": 270,
+  "section": "ขับเคลื่อนทีมงาน (Drive)",
+  "task": "งานคุณภาพ (QC) On - process & End - Process - ตรงตามเวลา",
+  "week_range": null
+ },
+ {
+  "row": 273,
+  "section": "งวดเบิกงานงานก่อสร้าง",
+  "task": "งวดที่ 1 สำรองวัสดุล่วงหน้า",
+  "week_range": null
+ },
+ {
+  "row": 274,
+  "section": "งวดเบิกงานงานก่อสร้าง",
+  "task": "งวดที่ 2 งานโครงสร้างคสล. แล้วเสร็จ",
+  "week_range": null
+ },
+ {
+  "row": 275,
+  "section": "งวดเบิกงานงานก่อสร้าง",
+  "task": "งวดที่ 3 งานโครงสร้างหลังคาพร้อมมุง และงานก่อผนังแล้วเสร็จ",
+  "week_range": null
+ },
+ {
+  "row": 276,
+  "section": "งวดเบิกงานงานก่อสร้าง",
+  "task": "งวดที่ 4 งานฉาบผนัง ฝ้าเพดานภายนอก/ใน",
+  "week_range": null
+ },
+ {
+  "row": 277,
+  "section": "งวดเบิกงานงานก่อสร้าง",
+  "task": "งวดที่ 5 งานปูกระเบื้อง บานประตู อลูมิเนียม อุปกรณ์ไฟฟ้า สุขภัณฑ์ และงานรั้วบริเวณ",
+  "week_range": null
+ },
+ {
+  "row": 278,
+  "section": "งวดเบิกงานงานก่อสร้าง",
+  "task": "งวดที่ 6 งานสีรอบสุดท้าย งานบ้านแล้วเสร็จพร้อมทำความสะอาด",
+  "week_range": null
+ },
+ {
+  "row": 279,
+  "section": "งวดเบิกงานงานก่อสร้าง",
+  "task": "งวดที่ 7 งานส่งมอบ",
+  "week_range": null
+ },
+ {
+  "row": 282,
+  "section": "สต๊อควัสดุก่อสร้าง",
+  "task": "คลังบริษัท - เช็คสต๊อคสินค้า 100%",
+  "week_range": null
+ },
+ {
+  "row": 283,
+  "section": "สต๊อควัสดุก่อสร้าง",
+  "task": "คลังโครงการ - เช็คสต๊อคสินค้า 100%",
+  "week_range": null
+ },
+ {
+  "row": 284,
+  "section": "สต๊อควัสดุก่อสร้าง",
+  "task": "คลังแปลง - เช็คสต๊อคสินค้า 100%",
+  "week_range": null
+ }
+]
