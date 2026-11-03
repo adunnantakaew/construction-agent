@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Construction Agent — ภาพรวมโครงการ</title>
+<style>
+  :root {
+    --bg: #0f1115; --card: #171a21; --border: #262b36; --text: #e8eaed;
+    --muted: #8a909c; --accent: #4f8cff; --danger: #e5484d; --warn: #e0a72e; --ok: #35c46a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Thai", sans-serif;
+  }
+  header { padding: 20px 28px; border-bottom: 1px solid var(--border); }
+  header h1 { margin: 0; font-size: 20px; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+  main { padding: 20px 28px; max-width: 1200px; margin: 0 auto; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 18px; cursor: pointer; transition: border-color .15s;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card-title { font-weight: 600; font-size: 15px; margin-bottom: 2px; }
+  .card-sub { color: var(--muted); font-size: 12px; margin-bottom: 14px; }
+  .bar-row { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 5px; }
+  .bar-bg { background: var(--border); border-radius: 6px; height: 9px; overflow: hidden; margin-bottom: 14px; }
+  .bar-fill { height: 100%; background: var(--accent); }
+  .meta { font-size: 12.5px; line-height: 2; color: var(--text); }
+  .meta .label { color: var(--muted); }
+  .pill { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; margin-left: 4px; }
+  .pill.danger { background: rgba(229,72,77,.15); color: var(--danger); }
+  .pill.warn { background: rgba(224,167,46,.15); color: var(--warn); }
+  .pill.ok { background: rgba(53,196,106,.15); color: var(--ok); }
+  .note {
+    margin-top: 20px; padding: 12px 16px; border: 1px solid var(--border); border-radius: 10px;
+    background: rgba(224,167,46,.06); color: var(--muted); font-size: 12px; line-height: 1.7;
+  }
+  .loading { color: var(--muted); padding: 40px; text-align: center; }
+  a { color: inherit; text-decoration: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏗️ Construction Agent — ภาพรวมโครงการ</h1>
+  <p id="asof">กำลังโหลด...</p>
+  <p style="margin-top:8px;"><a href="/sale" style="color:var(--accent); font-size:13px;">→ Sale Dashboard (Customer Pipeline)</a></p>
+</header>
+<main>
+  <div class="grid" id="cards"><div class="loading">กำลังโหลดข้อมูล...</div></div>
+  <div class="note">
+    ⚠️ ข้อมูลวันที่ของแต่ละงานเป็น "ประมาณการ" (interpolated) จาก milestone ไม่กี่จุดที่มีสีชัดเจนในไฟล์ WBS ต้นฉบับ
+    ยังไม่ใช่ duration ที่ยืนยันจาก SE — ใช้ดูลำดับ/จังหวะงานได้ แต่ยังไม่ควรใช้ตัดสินความล่าช้าแบบเป๊ะจนกว่าจะตรวจทาน
+  </div>
+</main>
+<script>
+async function load() {
+  const res = await fetch('/api/overview');
+  const data = await res.json();
+  document.getElementById('asof').textContent = `สถานะ ณ ${data.today} · ${data.projects.length} โครงการ`;
+  const cardsEl = document.getElementById('cards');
+  cardsEl.innerHTML = '';
+  data.projects.forEach(p => {
+    const card = document.createElement('a');
+    card.href = `/project/${p.project_id}`;
+    card.className = 'card';
+    const overduePill = p.overdue_count > 0
+      ? `<span class="pill danger">${p.overdue_count} เลยกำหนด</span>` : `<span class="pill ok">ตรงแผน</span>`;
+    const reviewPill = p.pending_review.length > 0
+      ? `<span class="pill warn">${p.pending_review.length} รอตรวจ</span>` : '';
+    card.innerHTML = `
+      <div class="card-title">${p.project_code}</div>
+      <div class="card-sub">ลูกค้า ${p.customer_name || '-'} · สถานะ ${p.stage} · ${p.location || ''}</div>
+      <div class="bar-row"><span>ความคืบหน้า (verified)</span><span>${p.done_tasks}/${p.total_tasks} (${p.progress_pct}%)</span></div>
+      <div class="bar-bg"><div class="bar-fill" style="width:${p.progress_pct}%"></div></div>
+      <div class="meta">
+        <div><span class="label">ช่วงแผนงาน:</span> ${p.date_start || '-'} → ${p.date_end || '-'}</div>
+        <div><span class="label">QC ถัดไป:</span> ${p.next_qc ? p.next_qc.task_name + ' (' + (p.next_qc.planned_end||'-') + ')' : '-'}</div>
+        <div><span class="label">Defects เปิดอยู่:</span> ${p.open_defects.length} · <span class="label">Issues ค้าง:</span> ${p.open_issues.length}</div>
+        <div>${overduePill} ${reviewPill}</div>
+      </div>
+    `;
+    cardsEl.appendChild(card);
+  });
+}
+load();
+</script>
+</body>
+</html>

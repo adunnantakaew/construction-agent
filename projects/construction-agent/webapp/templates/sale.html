@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Construction Agent — Sale Dashboard</title>
+<style>
+  :root {
+    --bg: #0f1115; --card: #171a21; --border: #262b36; --text: #e8eaed;
+    --muted: #8a909c; --accent: #4f8cff; --danger: #e5484d; --warn: #e0a72e; --ok: #35c46a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Thai", sans-serif;
+  }
+  header { padding: 18px 28px; border-bottom: 1px solid var(--border); }
+  header a.back { color: var(--muted); font-size: 12.5px; text-decoration: none; }
+  header h1 { margin: 6px 0 2px; font-size: 20px; }
+  header p { margin: 0; color: var(--muted); font-size: 13px; }
+  main { padding: 20px 28px; max-width: 1280px; margin: 0 auto; }
+  .row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 20px; }
+  .stat { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
+  .stat .v { font-size: 22px; font-weight: 700; }
+  .stat .l { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .section { margin-bottom: 26px; }
+  .section h2 { font-size: 15px; margin: 0 0 10px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; }
+  .tab {
+    padding: 6px 14px; border-radius: 16px; border: 1px solid var(--border); font-size: 12.5px;
+    cursor: pointer; color: var(--muted); background: var(--card);
+  }
+  .tab.active { color: var(--text); border-color: var(--accent); background: rgba(79,140,255,.12); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 500; font-size: 12px; }
+  .badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; }
+  .badge.จอง { background: rgba(79,140,255,.15); color: var(--accent); }
+  .badge.operation { background: rgba(224,167,46,.15); color: var(--warn); }
+  .badge.ก่อสร้าง { background: rgba(53,196,106,.15); color: var(--ok); }
+  .badge.ยกเลิก { background: rgba(229,72,77,.15); color: var(--danger); }
+  .flagrow { background: rgba(224,167,46,.04); }
+  .flag { display: inline-block; margin: 1px 4px 1px 0; padding: 1px 7px; border-radius: 8px;
+    font-size: 10.5px; background: rgba(229,72,77,.15); color: var(--danger); }
+  .checks span { display: inline-block; width: 16px; text-align: center; }
+  .checks .y { color: var(--ok); }
+  .checks .n { color: var(--muted); opacity: .4; }
+  .condition { max-width: 320px; white-space: pre-wrap; font-size: 11.5px; color: var(--muted); max-height: 80px; overflow-y: auto; }
+  .empty { color: var(--muted); font-size: 13px; padding: 8px 0; }
+  .loading { color: var(--muted); padding: 40px; text-align: center; }
+  .note {
+    margin-top: 10px; padding: 10px 14px; border: 1px solid var(--border); border-radius: 10px;
+    background: rgba(224,167,46,.06); color: var(--muted); font-size: 12px; line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="/">&larr; กลับภาพรวมก่อสร้าง</a>
+  <h1>💼 Sale Dashboard — Customer Pipeline</h1>
+  <p id="asof">กำลังโหลด...</p>
+</header>
+<main>
+  <div class="row" id="stats"></div>
+
+  <div class="section">
+    <h2>⚠️ ข้อมูลไม่ครบ / ต้องแก้ไข (Sale รับผิดชอบแก้เอง)</h2>
+    <div id="flagged"></div>
+  </div>
+
+  <div class="section">
+    <h2>📋 รายชื่อลูกค้าทั้งหมด (Pipeline)</h2>
+    <div class="tabs" id="tabs"></div>
+    <table>
+      <thead>
+        <tr>
+          <th>โครงการ / ลูกค้า</th><th>สถานะ</th><th>Sale</th><th>ทีม (PD/OE/SE/FM)</th>
+          <th>ราคา</th><th>จอง/มัดจำ/สัญญา/เพิ่มลด</th><th>Date Book</th><th>บันทึก Sale</th>
+        </tr>
+      </thead>
+      <tbody id="rows"><tr><td colspan="8" class="loading">กำลังโหลด...</td></tr></tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    💡 ตารางนี้มาจากไฟล์ "ข้อมูลลูกค้า Back log.xlsx" ที่ทีม Sale ส่งมา ใช้สำหรับประสานงานระหว่าง Sale และ Product/ก่อสร้าง
+    (ลงข้อมูลลูกค้าทำแบบและเสนอราคา + ติดตามสถานะ) — แถวที่มี ⚠️ แปลว่าข้อมูลบางช่องหายไปหรือดูไม่สอดคล้องกัน
+    (เช่น ไม่มีชื่อ Sale ผู้รับผิดชอบ, ไม่มีราคา, หรืออยู่สถานะก่อสร้าง/operation แต่ไม่มี SE/FM) — เป็นปัญหาฝั่งข้อมูลของ Sale
+    ที่ต้องแก้ไขเอง ระบบนี้ยังไม่แก้ไข/เดาข้อมูลให้อัตโนมัติ
+  </div>
+</main>
+<script>
+let ALL = [];
+let currentStage = 'ALL';
+
+function money(v) {
+  if (v === null || v === undefined) return '-';
+  return Number(v).toLocaleString('th-TH', {maximumFractionDigits: 0});
+}
+
+function checkIcon(v) {
+  return v ? '<span class="y">✓</span>' : '<span class="n">✕</span>';
+}
+
+function renderRows() {
+  const rowsEl = document.getElementById('rows');
+  const filtered = currentStage === 'ALL' ? ALL : ALL.filter(p => (p.stage || 'ไม่ระบุ') === currentStage);
+  if (filtered.length === 0) {
+    rowsEl.innerHTML = '<tr><td colspan="8" class="empty">ไม่มีข้อมูล</td></tr>';
+    return;
+  }
+  rowsEl.innerHTML = filtered.map(p => {
+    const flagsHtml = (p.data_issues || []).map(f => `<span class="flag">${f}</span>`).join('');
+    const team = [p.pd_owner, p.oe_owner, p.se_owner, p.fm_owner].map(x => x || '-').join(' / ');
+    return `<tr class="${p.data_issues && p.data_issues.length ? 'flagrow' : ''}">
+      <td><strong>${p.project_code || p.pipeline_id}</strong>${flagsHtml ? '<br>' + flagsHtml : ''}</td>
+      <td><span class="badge ${p.stage || ''}">${p.stage || 'ไม่ระบุ'}</span></td>
+      <td>${p.sale_owner || '<span class="flag">ไม่มี</span>'}</td>
+      <td style="font-size:11.5px;color:var(--muted);">${team}</td>
+      <td>${money(p.price)}</td>
+      <td class="checks">${checkIcon(p.booking_done)}${checkIcon(p.deposit_done)}${checkIcon(p.contract_done)}${checkIcon(p.addon_done)}</td>
+      <td>${p.date_book || '-'}</td>
+      <td class="condition">${(p.condition_notes || '-').slice(0, 400)}</td>
+    </tr>`;
+  }).join('');
+}
+
+function renderTabs(byStageCount, total) {
+  const tabsEl = document.getElementById('tabs');
+  const stages = ['ALL', ...Object.keys(byStageCount)];
+  tabsEl.innerHTML = stages.map(s => {
+    const label = s === 'ALL' ? `ทั้งหมด (${total})` : `${s} (${byStageCount[s]})`;
+    return `<div class="tab ${s === currentStage ? 'active' : ''}" data-stage="${s}">${label}</div>`;
+  }).join('');
+  tabsEl.querySelectorAll('.tab').forEach(el => {
+    el.addEventListener('click', () => {
+      currentStage = el.dataset.stage;
+      renderTabs(byStageCount, total);
+      renderRows();
+    });
+  });
+}
+
+async function load() {
+  const res = await fetch('/api/sale');
+  const data = await res.json();
+  ALL = data.projects;
+
+  document.getElementById('asof').textContent =
+    `สถานะ ณ ${data.today} · ${data.total_count} โครงการ/ลูกค้าในไพพ์ไลน์ · มูลค่ารวม ${money(data.total_price)} บาท`;
+
+  const stats = document.getElementById('stats');
+  const ownerRows = Object.entries(data.owner_totals)
+    .sort((a, b) => b[1].count - a[1].count)
+    .map(([owner, v]) => `${owner}: ${v.count} โครงการ (${money(v.price_sum)} บาท)`)
+    .join(' · ');
+  stats.innerHTML = `
+    <div class="stat"><div class="v">${data.total_count}</div><div class="l">โครงการในไพพ์ไลน์</div></div>
+    <div class="stat"><div class="v">${money(data.total_price)}</div><div class="l">มูลค่ารวม (บาท)</div></div>
+    <div class="stat"><div class="v">${data.flagged_count}</div><div class="l">แถวข้อมูลไม่ครบ ⚠️</div></div>
+    <div class="stat" style="grid-column: span 2;"><div style="font-size:12.5px;line-height:1.8;">${ownerRows || '-'}</div><div class="l">แยกตาม Sale ผู้รับผิดชอบ</div></div>
+  `;
+
+  const flaggedEl = document.getElementById('flagged');
+  if (data.flagged.length === 0) {
+    flaggedEl.innerHTML = '<div class="empty">ไม่มีแถวที่มีปัญหาข้อมูล</div>';
+  } else {
+    flaggedEl.innerHTML = '<table><thead><tr><th>โครงการ</th><th>ปัญหา</th></tr></thead><tbody>' +
+      data.flagged.map(p => `<tr><td>${p.project_code || p.pipeline_id}</td><td>${(p.data_issues||[]).map(f=>`<span class="flag">${f}</span>`).join('')}</td></tr>`).join('') +
+      '</tbody></table>';
+  }
+
+  renderTabs(data.by_stage_count, data.total_count);
+  renderRows();
+}
+load();
+</script>
+</body>
+</html>
